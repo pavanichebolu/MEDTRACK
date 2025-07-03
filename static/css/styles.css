@@ -1,0 +1,154 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0b0109b6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link,
+.navbar-brand {
+    color: #fff !important;
+    transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #dce9ff !important;
+}
+
+/* Footer */
+footer {
+    background-color: #0b0109b6;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Cards */
+.card {
+    border-radius: 0.5rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+/* Tables */
+.table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+    background-color: #fff;
+    padding: 12px;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #0b0109b6;
+    border-color:#0b0109b6;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0b0109b6;
+    border-color: #0b0109b6;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #5c636a;
+    border-color: #565e64;
+}
+
+/* Forms */
+.form-control,
+.form-select {
+    border-radius: 0.4rem;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color:#0b0109b6;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Hero / Jumbotron */
+.jumbotron {
+    background: linear-gradient(135deg, #56ccf2, #2f80ed);
+    color: white;
+    border-radius: 1rem;
+    padding: 3rem 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Utility */
+a {
+    color: #0b0109b6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Headings */
+@media (max-width: 768px) {
+    h1, h2, h3 {
+        font-size: 1.3rem;
+    }
+}
+/* Background image for home page */
+body.home-page {
+    background-image: url("../images/home-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+#slogan {
+    transition: opacity 0.5s ease-in-out;
+}
+.slogan-box {
+    background: linear-gradient(to right, #f3f4f6, #e0f7fa);  /* Light gradient */
+    padding: 20px 40px;
+    margin: 30px auto;
+    max-width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.slogan-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+    margin: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
